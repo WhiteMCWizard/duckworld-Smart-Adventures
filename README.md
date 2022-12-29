@@ -1,1 +1,1 @@
-"# duckworld-Smart-Adventures" 
+# duckworld-Smart-Adventures

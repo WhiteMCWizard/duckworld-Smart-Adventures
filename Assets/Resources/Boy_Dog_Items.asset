@@ -1,0 +1,620 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a41d565238cc7c498b040a0d3993276, type: 3}
+  m_Name: Boy_Dog_Items
+  m_EditorClassIdentifier:
+  items:
+  - GUID: 31ea5849-b3b6-47e9-b6b8-0a606cee53ac
+    Material: {fileID: 2100000, guid: fe82266b7b7cdb845a37ee11ba6b6797, type: 2}
+    MeshName: Hair_01
+    Category: 1
+    Icon: {fileID: 2800000, guid: 41601f2e78636634c9dd7b19c14e3686, type: 3}
+  - GUID: 93c3cb8b-6bf0-4645-a075-474c0fecdeab
+    Material: {fileID: 2100000, guid: e41ede1e575209d42a8c776ab0435545, type: 2}
+    MeshName: Hair_01
+    Category: 1
+    Icon: {fileID: 2800000, guid: 41601f2e78636634c9dd7b19c14e3686, type: 3}
+  - GUID: 40511d1d-5b31-4445-9b9c-6c284cc3a290
+    Material: {fileID: 2100000, guid: 2748b1aa3ecdff94bb2aef30cd3f5fa0, type: 2}
+    MeshName: Hair_01
+    Category: 1
+    Icon: {fileID: 2800000, guid: 41601f2e78636634c9dd7b19c14e3686, type: 3}
+  - GUID: ab453e65-d8e2-442b-abe9-a74efcaa44ca
+    Material: {fileID: 2100000, guid: 4b7a6da14c666df4bae7b6ccc653d433, type: 2}
+    MeshName: Hair_01
+    Category: 1
+    Icon: {fileID: 2800000, guid: 41601f2e78636634c9dd7b19c14e3686, type: 3}
+  - GUID: b473441f-d97c-4008-a832-e51a861cff47
+    Material: {fileID: 2100000, guid: 01f4c904ef4d8da4db1e8df3dad3dea2, type: 2}
+    MeshName: Hair_01
+    Category: 1
+    Icon: {fileID: 2800000, guid: 41601f2e78636634c9dd7b19c14e3686, type: 3}
+  - GUID: 5fec4abb-9179-4c65-88bf-99ec39220302
+    Material: {fileID: 2100000, guid: e60421521b80db34ea9fcb95f055792a, type: 2}
+    MeshName: Hair_01
+    Category: 1
+    Icon: {fileID: 2800000, guid: 41601f2e78636634c9dd7b19c14e3686, type: 3}
+  - GUID: 9dfb5a81-0e92-479e-abaa-ed0b9f7fe001
+    Material: {fileID: 2100000, guid: f0c5ad980ff030740b76118dcbffbd82, type: 2}
+    MeshName: Hair_02
+    Category: 1
+    Icon: {fileID: 2800000, guid: 41601f2e78636634c9dd7b19c14e3686, type: 3}
+  - GUID: b46bd88b-b6cf-4bc7-be8b-8d3f83a66a1c
+    Material: {fileID: 2100000, guid: 2bf92be2f5b087144931c3813e3097dd, type: 2}
+    MeshName: Helmet_02
+    Category: 1
+    Icon: {fileID: 2800000, guid: 861e9ef0677a5994288aace5d88f2a6e, type: 3}
+  - GUID: d3167c5e-42f6-43fe-9a1a-6c4045270499
+    Material: {fileID: 2100000, guid: ccd4a9810ddac2a46b2ecaa54272f485, type: 2}
+    MeshName: Eyes_01
+    Category: 2
+    Icon: {fileID: 2800000, guid: 41601f2e78636634c9dd7b19c14e3686, type: 3}
+  - GUID: f997b86a-34d3-4b81-98f2-1928b8a69599
+    Material: {fileID: 2100000, guid: 84265bd2b94251441979122d476df86e, type: 2}
+    MeshName: Eyes_01
+    Category: 2
+    Icon: {fileID: 2800000, guid: 41601f2e78636634c9dd7b19c14e3686, type: 3}
+  - GUID: 32599b5a-9c8a-4283-8439-f3dd85fd465b
+    Material: {fileID: 2100000, guid: cfd0a0af09422c547abb6cd75b0d4a1f, type: 2}
+    MeshName: Torso_01
+    Category: 3
+    Icon: {fileID: 2800000, guid: a0e2fe0e5c4309f489b73495ce123079, type: 3}
+  - GUID: ee1bc46f-f2df-4701-a48d-5035bfa91897
+    Material: {fileID: 2100000, guid: 4687841115d2d3044bab6dad53fb698b, type: 2}
+    MeshName: Torso_01
+    Category: 3
+    Icon: {fileID: 2800000, guid: a0e2fe0e5c4309f489b73495ce123079, type: 3}
+  - GUID: 9f100b25-58a3-44bc-bbfe-9eb851857e30
+    Material: {fileID: 2100000, guid: 126c1fb1493332f498acfd1a2843aef3, type: 2}
+    MeshName: Torso_01
+    Category: 3
+    Icon: {fileID: 2800000, guid: 6e9e8bca8f9cebc4690419e602a6342c, type: 3}
+  - GUID: af3fe207-7165-45ad-98dc-7de4fdcc6926
+    Material: {fileID: 2100000, guid: d3d32106a8fd4424c8f8b0c0821c6ba3, type: 2}
+    MeshName: Torso_01
+    Category: 3
+    Icon: {fileID: 2800000, guid: 6e9e8bca8f9cebc4690419e602a6342c, type: 3}
+  - GUID: 43a1413c-370e-4515-bd9d-c9b0afa54402
+    Material: {fileID: 2100000, guid: e0103005c902bf645b5d9686f25ceff1, type: 2}
+    MeshName: Torso_01
+    Category: 3
+    Icon: {fileID: 2800000, guid: 9fcc7a999df0877468ed0621bb108550, type: 3}
+  - GUID: d8bc1354-cb4d-4426-9104-6397ef40dd1f
+    Material: {fileID: 2100000, guid: 45b878e58c089f7418a3c0b8a514c02f, type: 2}
+    MeshName: Torso_01
+    Category: 3
+    Icon: {fileID: 2800000, guid: 820a01099cb09e741b3cfd79cd6fe68b, type: 3}
+  - GUID: 9948e3e5-8742-4352-a844-5bb5d3f41ab2
+    Material: {fileID: 2100000, guid: a4a6ccc8a42542943932892f623b2562, type: 2}
+    MeshName: Torso_01
+    Category: 3
+    Icon: {fileID: 2800000, guid: 820a01099cb09e741b3cfd79cd6fe68b, type: 3}
+  - GUID: bc7a2175-eba0-48e1-93e4-8ce5eb54473b
+    Material: {fileID: 2100000, guid: 8def8cb8c4bb52e4d95cfc75adc5fc28, type: 2}
+    MeshName: Torso_01
+    Category: 3
+    Icon: {fileID: 2800000, guid: 820a01099cb09e741b3cfd79cd6fe68b, type: 3}
+  - GUID: 94bbe51f-1980-4024-b466-5a66551fe2e5
+    Material: {fileID: 2100000, guid: d4fc91f30e3892e49b9fd1985a7094a1, type: 2}
+    MeshName: Torso_01
+    Category: 3
+    Icon: {fileID: 2800000, guid: 675834800e0b8f840963239973acd80c, type: 3}
+  - GUID: a3baae4c-6969-4b15-bd1d-810b28bf6c98
+    Material: {fileID: 2100000, guid: 985f7d69c2869274d9dfe27cb6c3e9f2, type: 2}
+    MeshName: Torso_01
+    Category: 3
+    Icon: {fileID: 2800000, guid: 6fd7a477fa78dc14a99b11ba076ccff5, type: 3}
+  - GUID: 1a5a79e5-8f3d-4787-8d95-5a874d78f9d3
+    Material: {fileID: 2100000, guid: b0ccff2a724546d44bb5c16fbb75c537, type: 2}
+    MeshName: Torso_01
+    Category: 3
+    Icon: {fileID: 2800000, guid: 6fd7a477fa78dc14a99b11ba076ccff5, type: 3}
+  - GUID: ef2e6333-6b6f-4649-9a4f-45d7ad60d673
+    Material: {fileID: 2100000, guid: a003a20f38c60d14dac455c00502a6bc, type: 2}
+    MeshName: Torso_01
+    Category: 3
+    Icon: {fileID: 2800000, guid: 6fd7a477fa78dc14a99b11ba076ccff5, type: 3}
+  - GUID: 9df253d3-8327-46a4-ba84-fa0ad4e41546
+    Material: {fileID: 2100000, guid: a643bf8dc0292564faa5a7d0477c7757, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 3c9418b3462634c47b3c6620b0d414d9, type: 3}
+  - GUID: 9ef6db59-d651-4947-8f42-20b6ba7e448a
+    Material: {fileID: 2100000, guid: f7146514bdd692b4faa330f45434c1fd, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 3c9418b3462634c47b3c6620b0d414d9, type: 3}
+  - GUID: a7fed51a-03d4-4f31-b31d-47ab17b9f67a
+    Material: {fileID: 2100000, guid: 329fddfb1db45f1489f3577fcbe252a6, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 3c9418b3462634c47b3c6620b0d414d9, type: 3}
+  - GUID: a353a7c2-3646-4725-9e89-cf7e153a0c38
+    Material: {fileID: 2100000, guid: 8f61825946f39df408ce8cb05b799765, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 3c9418b3462634c47b3c6620b0d414d9, type: 3}
+  - GUID: f44784fb-bbcb-4ea1-9ba0-ac6655fbc105
+    Material: {fileID: 2100000, guid: c62ebe6d520c2674d8b3c51dbe244601, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 7478dcd73ccc8954bada347d63e44654, type: 3}
+  - GUID: 4b53da93-7164-430b-9c4e-087ed8a4f3bc
+    Material: {fileID: 2100000, guid: 064efcd179a2cad4d96f4c20808f0d11, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 7478dcd73ccc8954bada347d63e44654, type: 3}
+  - GUID: 6a072c78-dff7-4932-b4a1-843ed69c7421
+    Material: {fileID: 2100000, guid: 8bde8d2bc43a34a4190cc0b9062a6372, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 62401c41d5300de49b569d23a8b6a133, type: 3}
+  - GUID: be584351-e045-4a2f-8d65-a521e822837a
+    Material: {fileID: 2100000, guid: 9846a59ebe9e99b4398f1276050d3386, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 62401c41d5300de49b569d23a8b6a133, type: 3}
+  - GUID: bcf7f892-171b-4b7c-909c-2590309d6ec4
+    Material: {fileID: 2100000, guid: da314e49f4244774d867da747b13ddb5, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 9cdb3fa221ee74642b87b7abe4c65204, type: 3}
+  - GUID: 0d5c5f52-b00c-45a5-a669-583fab016c3b
+    Material: {fileID: 2100000, guid: 4adb9d1d2dc015641b6927cf2382e078, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 9cdb3fa221ee74642b87b7abe4c65204, type: 3}
+  - GUID: 4fc766d1-2ad2-4497-96ce-79f26bc2faf4
+    Material: {fileID: 2100000, guid: 378a536869172ae45a256d165bb990e0, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 9cdb3fa221ee74642b87b7abe4c65204, type: 3}
+  - GUID: 690926cb-588c-4dea-af75-da5d2e0aba84
+    Material: {fileID: 2100000, guid: 54e8d95f05e217d49bbec7b7fa7ff3f0, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 9cdb3fa221ee74642b87b7abe4c65204, type: 3}
+  - GUID: 941104c8-b7ae-47b1-a909-0a60e1564aa4
+    Material: {fileID: 2100000, guid: 607bfe9dd3e17d6418b51aa0f412f7d4, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: a49a273963665ea40b64e9a1c8376b7e, type: 3}
+  - GUID: 58804675-8f03-4711-9e31-b23a4b3443bf
+    Material: {fileID: 2100000, guid: 1ce4fa075d18f1e4da30dfe56a053877, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: a49a273963665ea40b64e9a1c8376b7e, type: 3}
+  - GUID: 1188eb9e-8029-43a2-9445-003afacaaf14
+    Material: {fileID: 2100000, guid: 8ab436cdc9a395144806f593e93b7c03, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: a49a273963665ea40b64e9a1c8376b7e, type: 3}
+  - GUID: f3b4db58-3d72-4cbe-8d3e-8bbef0d12062
+    Material: {fileID: 2100000, guid: b3c9482a341f5d14caa4eaf41a162b9d, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: a49a273963665ea40b64e9a1c8376b7e, type: 3}
+  - GUID: 1c4a112e-eaa8-4d9f-9657-cf30ae16e8ab
+    Material: {fileID: 2100000, guid: 3e8da1c3951eb1941a8e811a8462b814, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 1c6b55fa3f324f54dbbdafc16fb3683f, type: 3}
+  - GUID: fb9d928c-948d-4423-9645-ccfc0f3b65d8
+    Material: {fileID: 2100000, guid: b96d4904dd3b5c344aa8b53d5081519e, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 1c6b55fa3f324f54dbbdafc16fb3683f, type: 3}
+  - GUID: f89b5a08-a848-4fd5-9a58-b6cf0eb1a2d8
+    Material: {fileID: 2100000, guid: af0af27df7f318445af5dec943625a79, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 1c6b55fa3f324f54dbbdafc16fb3683f, type: 3}
+  - GUID: 39d4e474-94c8-40aa-8231-e2564a7df06f
+    Material: {fileID: 2100000, guid: 1abe05bb630f99d40923ffaef8157ecf, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 1c6b55fa3f324f54dbbdafc16fb3683f, type: 3}
+  - GUID: 105dc699-b9bd-498c-8b85-5d7f7529b521
+    Material: {fileID: 2100000, guid: b703a883a0646824a9b5b02cbd9c3ea7, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: c13470ee39e181b4a872a350fb69ff1f, type: 3}
+  - GUID: 6e5ca3b8-bbef-4873-8d00-495aee159943
+    Material: {fileID: 2100000, guid: bf13f661f294ee644bb9d4634eb11d16, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: c13470ee39e181b4a872a350fb69ff1f, type: 3}
+  - GUID: 6126fc0a-2486-4c68-82be-30a87e9fcddf
+    Material: {fileID: 2100000, guid: 4e1f7d9ad92cb6246bbe47a5eab3b487, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: c13470ee39e181b4a872a350fb69ff1f, type: 3}
+  - GUID: 8fad423f-2d9e-4239-ab0b-c412860db723
+    Material: {fileID: 2100000, guid: ac473af4735d8674fa941aaeb5a51273, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: c13470ee39e181b4a872a350fb69ff1f, type: 3}
+  - GUID: dfd21bb1-7281-45c8-b45e-66436f6a94ef
+    Material: {fileID: 2100000, guid: 71bcce28befed4b428c9ad28ceedadc9, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: ea0dfbb57ff890c40a295697319bbd2f, type: 3}
+  - GUID: 8d167b77-1eae-42c3-85e2-cb0d4212ebf3
+    Material: {fileID: 2100000, guid: 08bdf3e7f92140c45a5528caeff2f0b6, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: ea0dfbb57ff890c40a295697319bbd2f, type: 3}
+  - GUID: c66915be-4b9f-41d4-8ffd-7d6b2bf59b9d
+    Material: {fileID: 2100000, guid: 6c137aa599a6f7a4e9e2423b82a953b0, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: ea0dfbb57ff890c40a295697319bbd2f, type: 3}
+  - GUID: fff3d986-c267-4a61-a4b8-4b7fca4fb97a
+    Material: {fileID: 2100000, guid: 0d4f6020e13a2e54f88106b7bf8631fb, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: ea0dfbb57ff890c40a295697319bbd2f, type: 3}
+  - GUID: 00fec8b9-d6f7-41de-bc16-af0d2e42c289
+    Material: {fileID: 2100000, guid: b6798d287f7a28444bef0b4c760cf4e1, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: 2dfb663c5d479e6469051aa1932d102b, type: 3}
+  - GUID: 3618f0d0-a524-4910-a13c-695eb3532edd
+    Material: {fileID: 2100000, guid: c8b3bb47aa24c0840b8433e16725e920, type: 2}
+    MeshName: Torso_02
+    Category: 3
+    Icon: {fileID: 2800000, guid: ae0bfc8391fdac84fb2c401f70bc44a3, type: 3}
+  - GUID: 07a395f5-6ef3-45fb-9c22-a7410082d7c2
+    Material: {fileID: 2100000, guid: de8dbbdb271e0ee49a88ee13261e9ac5, type: 2}
+    MeshName: Torso_03
+    Category: 3
+    Icon: {fileID: 2800000, guid: 818dba536088f6746bef407bce4b0cc6, type: 3}
+  - GUID: 9bb559eb-b3cc-423b-a01a-e67e8d6b952e
+    Material: {fileID: 2100000, guid: 3233c8390dcdde349b82eca82112b15d, type: 2}
+    MeshName: Torso_03
+    Category: 3
+    Icon: {fileID: 2800000, guid: 818dba536088f6746bef407bce4b0cc6, type: 3}
+  - GUID: bd1bf716-8345-48b9-a885-976dec4e60a3
+    Material: {fileID: 2100000, guid: e1165137c51aca54dbbfb2c7ac58a6c2, type: 2}
+    MeshName: Torso_03
+    Category: 3
+    Icon: {fileID: 2800000, guid: 818dba536088f6746bef407bce4b0cc6, type: 3}
+  - GUID: b5170525-9d1e-48a2-9b22-54c51f55f798
+    Material: {fileID: 2100000, guid: 08dca04b7cd0b534d8153ded6f728a3b, type: 2}
+    MeshName: Torso_03
+    Category: 3
+    Icon: {fileID: 2800000, guid: 818dba536088f6746bef407bce4b0cc6, type: 3}
+  - GUID: 547089ff-fc3f-4761-b575-4cf0028168e7
+    Material: {fileID: 2100000, guid: 362e47645d052ea469266d63b7d7ed9d, type: 2}
+    MeshName: Torso_04
+    Category: 3
+    Icon: {fileID: 2800000, guid: 3c128e2bae5abc94d997f63a2c71d0cf, type: 3}
+  - GUID: 89c471de-2029-4732-9cb3-f61ede704500
+    Material: {fileID: 2100000, guid: f8f81ea20bdbf514ea06c605f6343b95, type: 2}
+    MeshName: Torso_04
+    Category: 3
+    Icon: {fileID: 2800000, guid: 3c128e2bae5abc94d997f63a2c71d0cf, type: 3}
+  - GUID: 06f6c189-8b84-4d79-bbf4-dca6f7213596
+    Material: {fileID: 2100000, guid: f4401adfb53df3e4f80fc799b527f3c5, type: 2}
+    MeshName: Torso_04
+    Category: 3
+    Icon: {fileID: 2800000, guid: 3c128e2bae5abc94d997f63a2c71d0cf, type: 3}
+  - GUID: d54bbbf2-433c-4d74-a898-cfbee86739f5
+    Material: {fileID: 2100000, guid: 8be38250bc8f45043a374c80eb97a35f, type: 2}
+    MeshName: Torso_04
+    Category: 3
+    Icon: {fileID: 2800000, guid: 3c128e2bae5abc94d997f63a2c71d0cf, type: 3}
+  - GUID: f79e257c-8ea8-4fa2-9eb9-b3a33cc6c2a3
+    Material: {fileID: 2100000, guid: a978182075feb7c46a447c539c0ecdde, type: 2}
+    MeshName: Torso_04
+    Category: 3
+    Icon: {fileID: 2800000, guid: 1b249916d6236f54fae0c2619fed3509, type: 3}
+  - GUID: f45178ab-4582-4b05-9ebd-e1a8e4b66658
+    Material: {fileID: 2100000, guid: 09048581b472985499c4cb62c666dd34, type: 2}
+    MeshName: Torso_04
+    Category: 3
+    Icon: {fileID: 2800000, guid: 1b249916d6236f54fae0c2619fed3509, type: 3}
+  - GUID: c51fbedb-9001-4be3-a137-2bac3dc65974
+    Material: {fileID: 2100000, guid: 478f9429d19fa8a419425999b743c132, type: 2}
+    MeshName: Torso_04
+    Category: 3
+    Icon: {fileID: 2800000, guid: 1b249916d6236f54fae0c2619fed3509, type: 3}
+  - GUID: 84e88352-49c6-4ffe-8e2c-12cec6323789
+    Material: {fileID: 2100000, guid: 4c94736c169269b48b8be8bf80b67873, type: 2}
+    MeshName: Torso_04
+    Category: 3
+    Icon: {fileID: 2800000, guid: 1b249916d6236f54fae0c2619fed3509, type: 3}
+  - GUID: 441f852e-ac74-48bd-8d22-6c7e528aa299
+    Material: {fileID: 2100000, guid: 7cc50643942137f4687c835e4781c62c, type: 2}
+    MeshName: Torso_05
+    Category: 3
+    Icon: {fileID: 2800000, guid: f4bf3036c5b80dd448b29c772c91e7dc, type: 3}
+  - GUID: 0656e0d1-6c4d-42cf-be11-e9102979d355
+    Material: {fileID: 2100000, guid: 7caadb47724591f45a8575a3b89cdf01, type: 2}
+    MeshName: Torso_05
+    Category: 3
+    Icon: {fileID: 2800000, guid: f4bf3036c5b80dd448b29c772c91e7dc, type: 3}
+  - GUID: d41fece1-36b7-4a32-9369-0851412d4c19
+    Material: {fileID: 2100000, guid: a03e17d4ae3c6f44c950e612511f7dc4, type: 2}
+    MeshName: Torso_05
+    Category: 3
+    Icon: {fileID: 2800000, guid: f4bf3036c5b80dd448b29c772c91e7dc, type: 3}
+  - GUID: 837322cf-6166-4c74-8019-0852b617dd8c
+    Material: {fileID: 2100000, guid: 2f4a81402589418408842c377c4b6a70, type: 2}
+    MeshName: Torso_05
+    Category: 3
+    Icon: {fileID: 2800000, guid: f4bf3036c5b80dd448b29c772c91e7dc, type: 3}
+  - GUID: 8ceb87c7-6874-4a96-a7f1-74a23288674e
+    Material: {fileID: 2100000, guid: e0f8d91431133ad4783ba5ae8e6394df, type: 2}
+    MeshName: Torso_06
+    Category: 3
+    Icon: {fileID: 2800000, guid: b60d46931c2d2d8409f745d87c657fe8, type: 3}
+  - GUID: 0581137f-1851-4da3-b0e5-18be364046ec
+    Material: {fileID: 2100000, guid: 10228c9f86f943b45bce8593515bd91c, type: 2}
+    MeshName: Torso_06
+    Category: 3
+    Icon: {fileID: 2800000, guid: b60d46931c2d2d8409f745d87c657fe8, type: 3}
+  - GUID: dbcacdcd-5425-4cbb-b4e7-b3a24af4a5cb
+    Material: {fileID: 2100000, guid: 727424ef1ff2fad41b56534a1fa40a59, type: 2}
+    MeshName: Torso_06
+    Category: 3
+    Icon: {fileID: 2800000, guid: b60d46931c2d2d8409f745d87c657fe8, type: 3}
+  - GUID: 6afabf8f-5e3e-4d9f-8fa1-2209e58cb25c
+    Material: {fileID: 2100000, guid: 7f80984af6b34764d9f5149e81807f3f, type: 2}
+    MeshName: Torso_06
+    Category: 3
+    Icon: {fileID: 2800000, guid: b60d46931c2d2d8409f745d87c657fe8, type: 3}
+  - GUID: c1291d90-f141-449c-800e-80a3f715f33f
+    Material: {fileID: 2100000, guid: f2aa7ee45c2c49c49b5e36b937d9e25a, type: 2}
+    MeshName: Legs_01
+    Category: 4
+    Icon: {fileID: 2800000, guid: aa5e9bc8a1bc2db4ca59ba6f4574d9c0, type: 3}
+  - GUID: b8d48732-724f-4f7d-a546-346e2a6f992c
+    Material: {fileID: 2100000, guid: 1722c74c8fefc1e4b992e417e116c4ee, type: 2}
+    MeshName: Legs_01
+    Category: 4
+    Icon: {fileID: 2800000, guid: aa5e9bc8a1bc2db4ca59ba6f4574d9c0, type: 3}
+  - GUID: 880f2087-711e-45c0-9046-c8d897bf676f
+    Material: {fileID: 2100000, guid: 9a818d0fceb5a6044bb0f620fc33aca2, type: 2}
+    MeshName: Legs_01
+    Category: 4
+    Icon: {fileID: 2800000, guid: aa5e9bc8a1bc2db4ca59ba6f4574d9c0, type: 3}
+  - GUID: f048c949-a16a-44e8-8969-e4ed42d38b23
+    Material: {fileID: 2100000, guid: 2c9ff116cc9615944bbfd67e1ea3ed5c, type: 2}
+    MeshName: Legs_01
+    Category: 4
+    Icon: {fileID: 2800000, guid: aa5e9bc8a1bc2db4ca59ba6f4574d9c0, type: 3}
+  - GUID: 9c675a13-b379-455a-a2a5-e92b87af1f26
+    Material: {fileID: 2100000, guid: e56bb1247541aeb48a625d36d8ec69a4, type: 2}
+    MeshName: Legs_02
+    Category: 4
+    Icon: {fileID: 2800000, guid: 4b1074f52801be44198954ecd1295e2e, type: 3}
+  - GUID: 55247391-9c0d-46c2-a358-795cf2f2f4fa
+    Material: {fileID: 2100000, guid: 515d716e6cd384a4fa9577d00ca236ea, type: 2}
+    MeshName: Legs_02
+    Category: 4
+    Icon: {fileID: 2800000, guid: 4b1074f52801be44198954ecd1295e2e, type: 3}
+  - GUID: 04dc3c23-fabb-44db-9efb-68169e2f1f82
+    Material: {fileID: 2100000, guid: 26c02e522fa018f40a85946ded805739, type: 2}
+    MeshName: Legs_02
+    Category: 4
+    Icon: {fileID: 2800000, guid: 4b1074f52801be44198954ecd1295e2e, type: 3}
+  - GUID: 78f18d15-689e-4572-ad96-9b9e9833f8d8
+    Material: {fileID: 2100000, guid: f88afd8a61cc4f14c960b0d80f1f4d29, type: 2}
+    MeshName: Legs_02
+    Category: 4
+    Icon: {fileID: 2800000, guid: 4b1074f52801be44198954ecd1295e2e, type: 3}
+  - GUID: 0181be13-32f2-4d02-8287-46732271233c
+    Material: {fileID: 2100000, guid: 31258533928208c4e920e63fb9f6e1ba, type: 2}
+    MeshName: Legs_02
+    Category: 4
+    Icon: {fileID: 2800000, guid: c9bb65bcd48f33a4db356861ab69edd9, type: 3}
+  - GUID: 175f94bb-5275-4022-bc50-0c9d6471b59d
+    Material: {fileID: 2100000, guid: 8606071e451855a4883576edf96b197c, type: 2}
+    MeshName: Legs_02
+    Category: 4
+    Icon: {fileID: 2800000, guid: c9bb65bcd48f33a4db356861ab69edd9, type: 3}
+  - GUID: 8c168f68-e49f-4996-a65f-58274a779472
+    Material: {fileID: 2100000, guid: d999a91978caf904e80d6bd1e0aad89f, type: 2}
+    MeshName: Legs_02
+    Category: 4
+    Icon: {fileID: 2800000, guid: c9bb65bcd48f33a4db356861ab69edd9, type: 3}
+  - GUID: f3761816-23cd-4fce-b5d7-6879e6e45c3e
+    Material: {fileID: 2100000, guid: 950c6e7e5f914a14d8c2f4c24b0d6d1b, type: 2}
+    MeshName: Legs_02
+    Category: 4
+    Icon: {fileID: 2800000, guid: c9bb65bcd48f33a4db356861ab69edd9, type: 3}
+  - GUID: b1da6b2a-f8a6-40e0-800f-8f6078ed1175
+    Material: {fileID: 2100000, guid: c28918028363c0b48a8c8c73090df734, type: 2}
+    MeshName: Legs_03
+    Category: 4
+    Icon: {fileID: 2800000, guid: cffda51e73faec645b07aca0da29762f, type: 3}
+  - GUID: 0f112f17-7dd7-4c44-88e5-d055f00e570c
+    Material: {fileID: 2100000, guid: a71cafb018ace3e4b844662798454f2a, type: 2}
+    MeshName: Legs_03
+    Category: 4
+    Icon: {fileID: 2800000, guid: cffda51e73faec645b07aca0da29762f, type: 3}
+  - GUID: ed154761-6c6e-487f-bdc7-c081eb2efae6
+    Material: {fileID: 2100000, guid: 8bc5edae3ca9d3549b4658abc05b18d8, type: 2}
+    MeshName: Legs_03
+    Category: 4
+    Icon: {fileID: 2800000, guid: cffda51e73faec645b07aca0da29762f, type: 3}
+  - GUID: 5f46abbc-5f7d-447b-bcc5-61b4cb277ef4
+    Material: {fileID: 2100000, guid: 49f13a0993eaaf64aac1c09aa6fb1ddf, type: 2}
+    MeshName: Legs_03
+    Category: 4
+    Icon: {fileID: 2800000, guid: cffda51e73faec645b07aca0da29762f, type: 3}
+  - GUID: 1c68e30f-0257-4873-a091-de097aee3b32
+    Material: {fileID: 2100000, guid: f6a6c0047c25496499e7933b8e8fb567, type: 2}
+    MeshName: Legs_04
+    Category: 4
+    Icon: {fileID: 2800000, guid: 6777d2dea987c6741b83c4acf5d57424, type: 3}
+  - GUID: e1408a41-f884-4aed-bdd7-a16b53a15068
+    Material: {fileID: 2100000, guid: 75685758b58f42846b783fa358551872, type: 2}
+    MeshName: Legs_04
+    Category: 4
+    Icon: {fileID: 2800000, guid: 6777d2dea987c6741b83c4acf5d57424, type: 3}
+  - GUID: 5879fa46-d761-4823-8ffb-2f2fed400e40
+    Material: {fileID: 2100000, guid: 850afa21a7a060f489f98a5246a3e8b7, type: 2}
+    MeshName: Legs_04
+    Category: 4
+    Icon: {fileID: 2800000, guid: 6777d2dea987c6741b83c4acf5d57424, type: 3}
+  - GUID: 931c40b0-ccf4-48da-8721-76844a97c021
+    Material: {fileID: 2100000, guid: b13c24df64f0a594490ed10b5252393e, type: 2}
+    MeshName: Legs_04
+    Category: 4
+    Icon: {fileID: 2800000, guid: 6777d2dea987c6741b83c4acf5d57424, type: 3}
+  - GUID: 2f7bc7b9-039c-4f93-b4cd-a6b77ebb9ac9
+    Material: {fileID: 2100000, guid: 977a8076dba3d284688d5c388c4bfa03, type: 2}
+    MeshName: Legs_05
+    Category: 4
+    Icon: {fileID: 2800000, guid: 16fd05845f60f69478eb9c52b97cf13b, type: 3}
+  - GUID: 015efdad-a657-4ff9-bcf2-7d5924623355
+    Material: {fileID: 2100000, guid: 58f005d6396314a4e8a0e55d821cafeb, type: 2}
+    MeshName: Legs_05
+    Category: 4
+    Icon: {fileID: 2800000, guid: 16fd05845f60f69478eb9c52b97cf13b, type: 3}
+  - GUID: e4578bcf-f29c-4688-838f-2c520ab5ce07
+    Material: {fileID: 2100000, guid: 864f842c6d9ef9b46860f28c2966be5b, type: 2}
+    MeshName: Legs_05
+    Category: 4
+    Icon: {fileID: 2800000, guid: 16fd05845f60f69478eb9c52b97cf13b, type: 3}
+  - GUID: 6cdd31da-68ab-43d9-bf72-91d61d6794f5
+    Material: {fileID: 2100000, guid: 355004fa6067a3d47a4ebbb7dc2df6ae, type: 2}
+    MeshName: Legs_05
+    Category: 4
+    Icon: {fileID: 2800000, guid: 16fd05845f60f69478eb9c52b97cf13b, type: 3}
+  - GUID: d40d736d-e224-4d34-b102-793adee32d95
+    Material: {fileID: 2100000, guid: 760fb5c8c2d758848b23e337ba5d7734, type: 2}
+    MeshName: Feet_01
+    Category: 5
+    Icon: {fileID: 2800000, guid: e6e07085bac39b34fb6b0346fda81bb4, type: 3}
+  - GUID: e6c0244f-6ff7-4585-a378-67e9220ff608
+    Material: {fileID: 2100000, guid: 06966910df3fae44b8b46a3faba1ca71, type: 2}
+    MeshName: Feet_01
+    Category: 5
+    Icon: {fileID: 2800000, guid: e6e07085bac39b34fb6b0346fda81bb4, type: 3}
+  - GUID: 3ede1684-441b-4378-97b4-5ed4405a925a
+    Material: {fileID: 2100000, guid: 1fed523baf7aba84c833dd01e3676619, type: 2}
+    MeshName: Feet_01
+    Category: 5
+    Icon: {fileID: 2800000, guid: 14092cc884a6fe54c9deb5a80841380a, type: 3}
+  - GUID: ab5827fa-44c2-4547-8832-0dd5b7834f74
+    Material: {fileID: 2100000, guid: 2969f321fb34b7a49a0c6901987fea82, type: 2}
+    MeshName: Feet_01
+    Category: 5
+    Icon: {fileID: 2800000, guid: 14092cc884a6fe54c9deb5a80841380a, type: 3}
+  - GUID: 5371f875-2b1c-495e-9909-0116f32857b7
+    Material: {fileID: 2100000, guid: 65ac0a7f74dfbe446a78ae48c8cd2aff, type: 2}
+    MeshName: Feet_02
+    Category: 5
+    Icon: {fileID: 2800000, guid: ba57aa4599b314448be3406f817b665d, type: 3}
+  - GUID: 63e9aa79-f54e-4abf-9564-3ee77ae8681b
+    Material: {fileID: 2100000, guid: 8f5a48acc8523dc4cb90474f9e0e739d, type: 2}
+    MeshName: Feet_02
+    Category: 5
+    Icon: {fileID: 2800000, guid: ba57aa4599b314448be3406f817b665d, type: 3}
+  - GUID: ee160a1e-086c-4ef9-9c27-59e5f299c0ad
+    Material: {fileID: 2100000, guid: 7d7eca08cc45a0848ad37b49cf7a6635, type: 2}
+    MeshName: Feet_02
+    Category: 5
+    Icon: {fileID: 2800000, guid: 2b9a5830c78249642b9002a7ba531a58, type: 3}
+  - GUID: 28712854-2bb7-4381-bf90-8b02322d3a56
+    Material: {fileID: 2100000, guid: 27a3c5be6ae34b1409548db70d55409c, type: 2}
+    MeshName: Feet_02
+    Category: 5
+    Icon: {fileID: 2800000, guid: 2b9a5830c78249642b9002a7ba531a58, type: 3}
+  - GUID: d145b261-f34f-4960-a95d-eb2f81c48e20
+    Material: {fileID: 2100000, guid: 9e04fda1c66502b4fa4c08c4fc5388cc, type: 2}
+    MeshName: Feet_02
+    Category: 5
+    Icon: {fileID: 2800000, guid: 6b60859614fe0b34da4b05c2ce30e9bb, type: 3}
+  - GUID: c767621e-67b2-4fa1-8ebb-93a54c363ef8
+    Material: {fileID: 2100000, guid: a6efa14373c8d2740bf659dda96c9301, type: 2}
+    MeshName: Feet_02
+    Category: 5
+    Icon: {fileID: 2800000, guid: 6b60859614fe0b34da4b05c2ce30e9bb, type: 3}
+  - GUID: 895e7a38-2178-4b7f-b31f-17e4cfa4a3c6
+    Material: {fileID: 2100000, guid: a88a555ecb832c54d81f56d103332562, type: 2}
+    MeshName: Feet_02
+    Category: 5
+    Icon: {fileID: 2800000, guid: 6b60859614fe0b34da4b05c2ce30e9bb, type: 3}
+  - GUID: 0c1aa825-6c6e-4d17-8907-a65b78097b26
+    Material: {fileID: 2100000, guid: f384529f2fec16746ac14b90b5476cff, type: 2}
+    MeshName: Feet_02
+    Category: 5
+    Icon: {fileID: 2800000, guid: 6b60859614fe0b34da4b05c2ce30e9bb, type: 3}
+  - GUID: 8144816f-2ecb-48eb-bc40-382a7fff7c82
+    Material: {fileID: 2100000, guid: a8b32396342cb834aa4c551c00dcbae6, type: 2}
+    MeshName: Feet_02
+    Category: 5
+    Icon: {fileID: 2800000, guid: 872c126fcd4e3c244afadcfaac28424b, type: 3}
+  - GUID: 3b5faf0e-7bb7-469b-aa3a-6539ca5fd09e
+    Material: {fileID: 2100000, guid: 436a0133a09bf384e98108614bc87a5a, type: 2}
+    MeshName: Feet_02
+    Category: 5
+    Icon: {fileID: 2800000, guid: 872c126fcd4e3c244afadcfaac28424b, type: 3}
+  - GUID: 06a9ff85-40d5-4800-b121-8822004d332f
+    Material: {fileID: 2100000, guid: 4a5a9587c4335784cafe00dfa26ea4b3, type: 2}
+    MeshName: Feet_02
+    Category: 5
+    Icon: {fileID: 2800000, guid: 872c126fcd4e3c244afadcfaac28424b, type: 3}
+  - GUID: 3ababa4b-373b-4003-8f36-8dfc93b03f0a
+    Material: {fileID: 2100000, guid: 2660c929e88470f4681fd4329264cb12, type: 2}
+    MeshName: Feet_02
+    Category: 5
+    Icon: {fileID: 2800000, guid: 872c126fcd4e3c244afadcfaac28424b, type: 3}
+  - GUID: d6d168e4-e2d1-4532-8556-14d1cbf3083e
+    Material: {fileID: 2100000, guid: 6ff9c889365fb374c811d00753fb3340, type: 2}
+    MeshName: Feet_03
+    Category: 5
+    Icon: {fileID: 2800000, guid: 0cee313268acf4542954a14a89c06aa5, type: 3}
+  - GUID: 9f0ed8cb-850f-4336-befa-22d5af25894e
+    Material: {fileID: 2100000, guid: 77f3eb4aeeee32840a442f25442c1417, type: 2}
+    MeshName: Feet_03
+    Category: 5
+    Icon: {fileID: 2800000, guid: 0cee313268acf4542954a14a89c06aa5, type: 3}
+  - GUID: ec2307fa-a6ec-483e-bb37-a781829be242
+    Material: {fileID: 2100000, guid: 58bb5b57c22769e4d928d096b71110c4, type: 2}
+    MeshName: Feet_03
+    Category: 5
+    Icon: {fileID: 2800000, guid: 0cee313268acf4542954a14a89c06aa5, type: 3}
+  - GUID: c886951a-68d2-45b7-8d4d-1d69c15917e9
+    Material: {fileID: 2100000, guid: 0704aa236b70eaa49ad3ea5266eab419, type: 2}
+    MeshName: Feet_03
+    Category: 5
+    Icon: {fileID: 2800000, guid: 0cee313268acf4542954a14a89c06aa5, type: 3}
+  - GUID: 79e76657-f209-458d-b3dc-bf26de39f7f6
+    Material: {fileID: 2100000, guid: 0238661be2551f347af88e0f75b50aa0, type: 2}
+    MeshName: Feet_04
+    Category: 5
+    Icon: {fileID: 2800000, guid: 735b7f53e84482545910747974571216, type: 3}
+  - GUID: 3babf459-18ca-4df8-8e6b-9bea4bf191e6
+    Material: {fileID: 2100000, guid: ebb79e66b91d1c6428f8d24684bc6c3a, type: 2}
+    MeshName: Feet_04
+    Category: 5
+    Icon: {fileID: 2800000, guid: 735b7f53e84482545910747974571216, type: 3}
+  skinColors:
+  - {r: 0.9254902, g: 0.79607844, b: 0.7137255, a: 1}
+  - {r: 0.8980392, g: 0.7372549, b: 0.627451, a: 1}
+  - {r: 0.8745098, g: 0.67058825, b: 0.53333336, a: 1}
+  - {r: 0.8156863, g: 0.6, b: 0.46666667, a: 1}
+  - {r: 0.627451, g: 0.43529412, b: 0.29803923, a: 1}
+  - {r: 0.49803922, g: 0.32941177, b: 0.22352941, a: 1}
+  defaultConfigurations:
+  - Gender: 0
+    Race: 0
+    SkinColor:
+      r: 0
+      g: 0
+      b: 0
+    Items:
+    - ee1bc46f-f2df-4701-a48d-5035bfa91897

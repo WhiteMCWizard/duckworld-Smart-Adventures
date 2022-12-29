@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FireHydrant02
+  m_Shader: {fileID: 4800000, guid: 1fc85d7e9e4cc3e4ca7984f5a5da65f9, type: 3}
+  m_ShaderKeywords: COLORREPLACEMENT_OFF EMISSION_ON OUTLINE_OFF RIMLIGHT_OFF VERTEXCOLOR_OFF
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 9c5f28fdf9c5a4044b6875ac4b74699d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AlphaMod
+      second: 1
+    - first:
+        name: _AmbientThreshold
+      second: 0.3
+    - first:
+        name: _OutlineWidth
+      second: 0.11
+    - first:
+        name: _RimPower
+      second: 1
+    m_Colors:
+    - first:
+        name: _Ambient
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _BaseColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _BlueColor
+      second: {r: 0, g: 0, b: 1, a: 1}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _EmissiveColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _GreenColor
+      second: {r: 0, g: 1, b: 0, a: 1}
+    - first:
+        name: _OutlineColor
+      second: {r: 0.2, g: 0.2, b: 0.2, a: 0.8}
+    - first:
+        name: _RedColor
+      second: {r: 1, g: 0, b: 0, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Tint
+      second: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,1437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1876301219963185}
+  m_IsPrefabParent: 1
+--- !u!1 &1876301219963185
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4702289151841750}
+  - 95: {fileID: 95866654619836795}
+  - 114: {fileID: 114831048590322554}
+  - 114: {fileID: 114656665187649630}
+  - 195: {fileID: 195049088080509130}
+  - 114: {fileID: 114393372515787360}
+  m_Layer: 0
+  m_Name: BeagleBoyA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4702289151841750
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1876301219963185}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 155.93987, y: 16.955172, z: -22.281914}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4300106913347322}
+  - {fileID: 4506870536437159}
+  - {fileID: 4460588188353972}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!95 &95866654619836795
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1876301219963185}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: f844032568c26be459959c7eb2482049, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9fd9ef3f4b66e2d4689afe441505b30e, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114831048590322554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1876301219963185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f49ef57430fca7419e1acb8ae0f1e94, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  animationNullObject: {fileID: 4515907547367340}
+  material: {fileID: 2100000, guid: 3980cc91963595e40903086fae1fa0dc, type: 2}
+  uvOffset: {x: 0, y: 0}
+  tileXCount: 4
+  tileYCount: 2
+--- !u!114 &114656665187649630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1876301219963185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f49ef57430fca7419e1acb8ae0f1e94, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  animationNullObject: {fileID: 4362162288891248}
+  material: {fileID: 2100000, guid: 80408498011e031419cc639d463dc2fe, type: 2}
+  uvOffset: {x: 0, y: 0}
+  tileXCount: 4
+  tileYCount: 2
+--- !u!195 &195049088080509130
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1876301219963185}
+  m_Enabled: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 1000
+  avoidancePriority: 50
+  m_AngularSpeed: 1000
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &114393372515787360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1876301219963185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 601ac183e9b40fc459f9eccd24ce9c63, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  sneak_speed: 1
+  run_speed: 5
+  burlapSackLocator: {fileID: 4707929585567633}
+  burlapSack: {fileID: 1893555306507813, guid: 2687f193a083a5c44bb9aa05155c586e, type: 2}
+--- !u!1 &1472019321149123
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4300106913347322}
+  m_Layer: 0
+  m_Name: crate_loc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4300106913347322
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472019321149123}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4702289151841750}
+  m_RootOrder: 0
+--- !u!1 &1881726558743153
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4506870536437159}
+  - 137: {fileID: 137812578494000952}
+  m_Layer: 0
+  m_Name: beagle01_geo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4506870536437159
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1881726558743153}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4702289151841750}
+  m_RootOrder: 1
+--- !u!137 &137812578494000952
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1881726558743153}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e90f93c7872f5094cbfb4bfae9c050bc, type: 2}
+  - {fileID: 2100000, guid: 80408498011e031419cc639d463dc2fe, type: 2}
+  - {fileID: 2100000, guid: 3980cc91963595e40903086fae1fa0dc, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300000, guid: 229381d6881c3554aa8e7c9f9c4013f0, type: 2}
+  m_Bones:
+  - {fileID: 4460588188353972}
+  - {fileID: 4167549964662284}
+  - {fileID: 4815458716051198}
+  - {fileID: 4642122885217004}
+  - {fileID: 4094461751697525}
+  - {fileID: 4028933280430391}
+  - {fileID: 4407529963086822}
+  - {fileID: 4541717825754960}
+  - {fileID: 4018853416528303}
+  - {fileID: 4829453546694950}
+  - {fileID: 4643250713443966}
+  - {fileID: 4939549166892190}
+  - {fileID: 4006044075644619}
+  - {fileID: 4744387567337902}
+  - {fileID: 4547065066632723}
+  - {fileID: 4512273268474998}
+  - {fileID: 4664013958794970}
+  - {fileID: 4231582508143425}
+  - {fileID: 4902751523284936}
+  - {fileID: 4580801438048454}
+  - {fileID: 4962569731168809}
+  - {fileID: 4116884204485541}
+  - {fileID: 4702972402501991}
+  - {fileID: 4197897128050628}
+  - {fileID: 4347548287685330}
+  - {fileID: 4120589966372771}
+  - {fileID: 4045806305271085}
+  - {fileID: 4917730000490392}
+  - {fileID: 4736894358079565}
+  - {fileID: 4160664759702677}
+  - {fileID: 4783168366198827}
+  - {fileID: 4373973228947444}
+  - {fileID: 4412905936842348}
+  - {fileID: 4485580827429675}
+  - {fileID: 4586231224715430}
+  - {fileID: 4570213147410587}
+  - {fileID: 4464482189042857}
+  - {fileID: 4171994730631829}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4460588188353972}
+  m_AABB:
+    m_Center: {x: -5.9604645E-08, y: 0.8733074, z: 0.0982182}
+    m_Extent: {x: 1.0425601, y: 0.8733074, z: 0.3533528}
+  m_DirtyAABB: 0
+--- !u!1 &1941208920700966
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4460588188353972}
+  m_Layer: 0
+  m_Name: BeagleBoys_beagle01_skel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4460588188353972
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1941208920700966}
+  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4167549964662284}
+  m_Father: {fileID: 4702289151841750}
+  m_RootOrder: 2
+--- !u!1 &1338449847780742
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4167549964662284}
+  m_Layer: 0
+  m_Name: BeagleBoys_pelvis_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4167549964662284
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1338449847780742}
+  m_LocalRotation: {x: 5.551115E-17, y: 1.110223E-16, z: 1.3877788E-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0.52500004, z: -2.220446E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4783168366198827}
+  - {fileID: 4586231224715430}
+  - {fileID: 4815458716051198}
+  - {fileID: 4707929585567633}
+  - {fileID: 4413007241112264}
+  - {fileID: 4362162288891248}
+  - {fileID: 4515907547367340}
+  m_Father: {fileID: 4460588188353972}
+  m_RootOrder: 0
+--- !u!1 &1348510967233068
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4783168366198827}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_hip_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4783168366198827
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1348510967233068}
+  m_LocalRotation: {x: 0, y: -0.25881907, z: -0, w: 0.9659259}
+  m_LocalPosition: {x: -0.22000001, y: 8.881784E-17, z: 2.7755576E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4373973228947444}
+  m_Father: {fileID: 4167549964662284}
+  m_RootOrder: 0
+--- !u!1 &1398916892693765
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4373973228947444}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4373973228947444
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1398916892693765}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.220446E-17, y: -0.2, z: 0.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4412905936842348}
+  m_Father: {fileID: 4783168366198827}
+  m_RootOrder: 0
+--- !u!1 &1745721206356879
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4412905936842348}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4412905936842348
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1745721206356879}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.440892E-17, y: -0.2, z: -0.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4485580827429675}
+  m_Father: {fileID: 4373973228947444}
+  m_RootOrder: 0
+--- !u!1 &1451588553826741
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4485580827429675}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4485580827429675
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1451588553826741}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.220446E-17, y: -0.075, z: 0.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4412905936842348}
+  m_RootOrder: 0
+--- !u!1 &1523371704982111
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4586231224715430}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_hip_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4586231224715430
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1523371704982111}
+  m_LocalRotation: {x: 0, y: 0.25881907, z: -0, w: 0.9659259}
+  m_LocalPosition: {x: 0.22000001, y: -8.881784E-17, z: 2.7755582E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4570213147410587}
+  m_Father: {fileID: 4167549964662284}
+  m_RootOrder: 1
+--- !u!1 &1444675611838646
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4570213147410587}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_knee_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4570213147410587
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1444675611838646}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.2, z: 0.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4464482189042857}
+  m_Father: {fileID: 4586231224715430}
+  m_RootOrder: 0
+--- !u!1 &1122730586670011
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4464482189042857}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_ankle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4464482189042857
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1122730586670011}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.2, z: -0.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4171994730631829}
+  m_Father: {fileID: 4570213147410587}
+  m_RootOrder: 0
+--- !u!1 &1141521197024647
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4171994730631829}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_ball_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4171994730631829
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1141521197024647}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.075, z: 0.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4464482189042857}
+  m_RootOrder: 0
+--- !u!1 &1829616394365134
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4815458716051198}
+  m_Layer: 0
+  m_Name: BeagleBoys_spine_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4815458716051198
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1829616394365134}
+  m_LocalRotation: {x: 0.12218326, y: 1.03258494E-17, z: 1.3053072E-18, w: 0.9925076}
+  m_LocalPosition: {x: -0, y: 0.2, z: 0.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4642122885217004}
+  m_Father: {fileID: 4167549964662284}
+  m_RootOrder: 2
+--- !u!1 &1183615043779276
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4642122885217004}
+  m_Layer: 0
+  m_Name: BeagleBoys_chest_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4642122885217004
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1183615043779276}
+  m_LocalRotation: {x: -0.04614827, y: 0, z: -0, w: 0.9989346}
+  m_LocalPosition: {x: -0, y: 0.20615529, z: 8.881784E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4407529963086822}
+  - {fileID: 4094461751697525}
+  - {fileID: 4902751523284936}
+  m_Father: {fileID: 4815458716051198}
+  m_RootOrder: 0
+--- !u!1 &1632803423546469
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4407529963086822}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_clavicle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4407529963086822
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632803423546469}
+  m_LocalRotation: {x: -0.075266, y: -0.15971592, z: 0.01221399, w: 0.98421377}
+  m_LocalPosition: {x: -0.1, y: 0.22618507, z: -0.009503574}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4541717825754960}
+  m_Father: {fileID: 4642122885217004}
+  m_RootOrder: 0
+--- !u!1 &1055289169852365
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4541717825754960}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_shoulder_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4541717825754960
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1055289169852365}
+  m_LocalRotation: {x: -0.0060761343, y: 0.09835011, z: -0.061363, w: 0.99323964}
+  m_LocalPosition: {x: -0.15811388, y: -1.7763569E-16, z: -2.220446E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4018853416528303}
+  m_Father: {fileID: 4407529963086822}
+  m_RootOrder: 0
+--- !u!1 &1055923822563901
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4018853416528303}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_elbow_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4018853416528303
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1055923822563901}
+  m_LocalRotation: {x: -0.013630352, y: 0.10972563, z: -0.00018342197, w: 0.99386847}
+  m_LocalPosition: {x: -0.23, y: -0.0012214096, z: 0.0012403474}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4829453546694950}
+  m_Father: {fileID: 4541717825754960}
+  m_RootOrder: 0
+--- !u!1 &1449142823923121
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4829453546694950}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_wrist_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4829453546694950
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1449142823923121}
+  m_LocalRotation: {x: 0.0030057086, y: -0.048505835, z: 0.06177421, w: 0.9969063}
+  m_LocalPosition: {x: -0.23, y: -0.001228746, z: -0.0009708289}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4006044075644619}
+  - {fileID: 4547065066632723}
+  - {fileID: 4664013958794970}
+  - {fileID: 4643250713443966}
+  m_Father: {fileID: 4018853416528303}
+  m_RootOrder: 0
+--- !u!1 &1519859433790644
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4006044075644619}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_finger_1a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4006044075644619
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1519859433790644}
+  m_LocalRotation: {x: 1.3864235E-17, y: -6.993104E-18, z: -2.1684043E-19, w: 1}
+  m_LocalPosition: {x: -0.17935877, y: -0.030092081, z: 0.06481263}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4744387567337902}
+  m_Father: {fileID: 4829453546694950}
+  m_RootOrder: 0
+--- !u!1 &1641552321274035
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4744387567337902}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_finger_1b_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4744387567337902
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1641552321274035}
+  m_LocalRotation: {x: 1.3864235E-17, y: -6.993104E-18, z: -2.1684043E-19, w: 1}
+  m_LocalPosition: {x: -0.08089837, y: -0.01253054, z: 0.00078315876}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4006044075644619}
+  m_RootOrder: 0
+--- !u!1 &1699156845450791
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4547065066632723}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_finger_2a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4547065066632723
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1699156845450791}
+  m_LocalRotation: {x: 1.3864235E-17, y: -6.993104E-18, z: -2.1684043E-19, w: 1}
+  m_LocalPosition: {x: -0.1776856, y: -0.030788187, z: 0.008947222}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4512273268474998}
+  m_Father: {fileID: 4829453546694950}
+  m_RootOrder: 1
+--- !u!1 &1746587927574101
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4512273268474998}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_finger_2b_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4512273268474998
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1746587927574101}
+  m_LocalRotation: {x: 1.3864235E-17, y: -6.993104E-18, z: -2.1684043E-19, w: 1}
+  m_LocalPosition: {x: -0.08090999, y: -0.012530548, z: 0.0007831592}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4547065066632723}
+  m_RootOrder: 0
+--- !u!1 &1111965971490891
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4664013958794970}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_finger_3a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4664013958794970
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111965971490891}
+  m_LocalRotation: {x: 1.3864235E-17, y: -6.993104E-18, z: -2.1684043E-19, w: 1}
+  m_LocalPosition: {x: -0.16931559, y: -0.030179191, z: -0.048397508}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4231582508143425}
+  m_Father: {fileID: 4829453546694950}
+  m_RootOrder: 2
+--- !u!1 &1708343113923641
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4231582508143425}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_finger_3b_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4231582508143425
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1708343113923641}
+  m_LocalRotation: {x: 1.3864235E-17, y: -6.993104E-18, z: -2.1684043E-19, w: 1}
+  m_LocalPosition: {x: -0.08204987, y: -0.01253054, z: 0.00078315876}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4664013958794970}
+  m_RootOrder: 0
+--- !u!1 &1254034255260208
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4643250713443966}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_thumb_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4643250713443966
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1254034255260208}
+  m_LocalRotation: {x: 0.07982669, y: -0.33916473, z: 0.028898211, w: 0.9368884}
+  m_LocalPosition: {x: -0.05214715, y: -0.039304223, z: 0.08430308}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4939549166892190}
+  m_Father: {fileID: 4829453546694950}
+  m_RootOrder: 3
+--- !u!1 &1524302157652661
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4939549166892190}
+  m_Layer: 0
+  m_Name: BeagleBoys_l_thumb_b_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4939549166892190
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1524302157652661}
+  m_LocalRotation: {x: -0.07982669, y: 0.33916473, z: -0.028898211, w: 0.9368884}
+  m_LocalPosition: {x: 2.6645354E-16, y: -8.881784E-16, z: 0.09288232}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4643250713443966}
+  m_RootOrder: 0
+--- !u!1 &1424237785944106
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4094461751697525}
+  m_Layer: 0
+  m_Name: BeagleBoys_neck_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4094461751697525
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1424237785944106}
+  m_LocalRotation: {x: -0.07625059, y: 0, z: -0, w: 0.99708873}
+  m_LocalPosition: {x: -3.1497543E-18, y: 0.32882366, z: -2.1094237E-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4028933280430391}
+  m_Father: {fileID: 4642122885217004}
+  m_RootOrder: 1
+--- !u!1 &1397724953720211
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4028933280430391}
+  m_Layer: 0
+  m_Name: BeagleBoys_head_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4028933280430391
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1397724953720211}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.2249034E-18, y: 0.125, z: 0.025}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4094461751697525}
+  m_RootOrder: 0
+--- !u!1 &1775641136206484
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4902751523284936}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_clavicle_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4902751523284936
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1775641136206484}
+  m_LocalRotation: {x: -0.075266, y: 0.15971592, z: -0.01221399, w: 0.98421377}
+  m_LocalPosition: {x: 0.1, y: 0.22618507, z: -0.009503574}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4580801438048454}
+  m_Father: {fileID: 4642122885217004}
+  m_RootOrder: 2
+--- !u!1 &1702139901354828
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4580801438048454}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_shoulder_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4580801438048454
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1702139901354828}
+  m_LocalRotation: {x: -0.0060761343, y: -0.09835011, z: 0.061363, w: 0.99323964}
+  m_LocalPosition: {x: 0.15811388, y: -1.7763569E-16, z: -2.220446E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4962569731168809}
+  m_Father: {fileID: 4902751523284936}
+  m_RootOrder: 0
+--- !u!1 &1888417222216074
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4962569731168809}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_elbow_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4962569731168809
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1888417222216074}
+  m_LocalRotation: {x: -0.013630341, y: -0.10972554, z: 0.00018342288, w: 0.99386847}
+  m_LocalPosition: {x: 0.23, y: -0.0012214096, z: 0.0012403474}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4116884204485541}
+  m_Father: {fileID: 4580801438048454}
+  m_RootOrder: 0
+--- !u!1 &1564988411877123
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4116884204485541}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_wrist_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4116884204485541
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1564988411877123}
+  m_LocalRotation: {x: 0.0030057037, y: 0.048505757, z: -0.061774213, w: 0.9969063}
+  m_LocalPosition: {x: 0.23, y: -0.0012287461, z: -0.00097082736}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4347548287685330}
+  - {fileID: 4045806305271085}
+  - {fileID: 4736894358079565}
+  - {fileID: 4702972402501991}
+  m_Father: {fileID: 4962569731168809}
+  m_RootOrder: 0
+--- !u!1 &1518625273585951
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4347548287685330}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_finger_1a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4347548287685330
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1518625273585951}
+  m_LocalRotation: {x: -4.1633363E-17, y: 3.469447E-18, z: 1.7347235E-18, w: 1}
+  m_LocalPosition: {x: 0.179359, y: -0.030090002, z: 0.0648123}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4120589966372771}
+  m_Father: {fileID: 4116884204485541}
+  m_RootOrder: 0
+--- !u!1 &1185198136379139
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4120589966372771}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_finger_1b_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4120589966372771
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1185198136379139}
+  m_LocalRotation: {x: -4.1633363E-17, y: 3.469447E-18, z: 1.7347235E-18, w: 1}
+  m_LocalPosition: {x: 0.080898, y: -0.012530001, z: 0.00078400003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4347548287685330}
+  m_RootOrder: 0
+--- !u!1 &1648143100439288
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4045806305271085}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_finger_2a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4045806305271085
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1648143100439288}
+  m_LocalRotation: {x: -4.1633363E-17, y: 3.469447E-18, z: 1.7347235E-18, w: 1}
+  m_LocalPosition: {x: 0.177686, y: -0.030790001, z: 0.008947301}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4917730000490392}
+  m_Father: {fileID: 4116884204485541}
+  m_RootOrder: 1
+--- !u!1 &1853281133099657
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4917730000490392}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_finger_2b_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4917730000490392
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1853281133099657}
+  m_LocalRotation: {x: -4.1633363E-17, y: 3.469447E-18, z: 1.7347235E-18, w: 1}
+  m_LocalPosition: {x: 0.08091, y: -0.012530001, z: 0.00078309997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4045806305271085}
+  m_RootOrder: 0
+--- !u!1 &1478474916044782
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4736894358079565}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_finger_3a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4736894358079565
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1478474916044782}
+  m_LocalRotation: {x: -4.1633363E-17, y: 3.469447E-18, z: 1.7347235E-18, w: 1}
+  m_LocalPosition: {x: 0.16931601, y: -0.030180002, z: -0.0483975}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4160664759702677}
+  m_Father: {fileID: 4116884204485541}
+  m_RootOrder: 2
+--- !u!1 &1965356962634116
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4160664759702677}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_finger_3b_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4160664759702677
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1965356962634116}
+  m_LocalRotation: {x: -4.1633363E-17, y: 3.469447E-18, z: 1.7347235E-18, w: 1}
+  m_LocalPosition: {x: 0.082049005, y: -0.012530001, z: 0.0007832}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4736894358079565}
+  m_RootOrder: 0
+--- !u!1 &1251766485142532
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4702972402501991}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_thumb_a_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4702972402501991
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1251766485142532}
+  m_LocalRotation: {x: 0.079857685, y: 0.33916584, z: -0.028909625, w: 0.93688506}
+  m_LocalPosition: {x: 0.052147, y: -0.039300002, z: 0.084303305}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4197897128050628}
+  m_Father: {fileID: 4116884204485541}
+  m_RootOrder: 3
+--- !u!1 &1968087875496859
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4197897128050628}
+  m_Layer: 0
+  m_Name: BeagleBoys_r_thumb_b_jnt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4197897128050628
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1968087875496859}
+  m_LocalRotation: {x: -0.079857685, y: -0.33916584, z: 0.028909625, w: 0.93688506}
+  m_LocalPosition: {x: -1.7763569E-16, y: -3.5527137E-16, z: 0.092882976}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4702972402501991}
+  m_RootOrder: 0
+--- !u!1 &1047974525507221
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4707929585567633}
+  m_Layer: 0
+  m_Name: Object_01_Loc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4707929585567633
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1047974525507221}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.52500004, z: 2.220446E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4167549964662284}
+  m_RootOrder: 3
+--- !u!1 &1965061326814368
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4413007241112264}
+  m_Layer: 0
+  m_Name: Object_02_Loc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4413007241112264
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1965061326814368}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.52500004, z: 2.220446E-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4167549964662284}
+  m_RootOrder: 4
+--- !u!1 &1228094335020579
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4362162288891248}
+  m_Layer: 0
+  m_Name: Mouth_Animation_Loc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4362162288891248
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1228094335020579}
+  m_LocalRotation: {x: -5.551115E-17, y: -1.110223E-16, z: -1.3877788E-16, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4167549964662284}
+  m_RootOrder: 5
+--- !u!1 &1281780374185542
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4515907547367340}
+  m_Layer: 0
+  m_Name: Eye_Animation_Loc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4515907547367340
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281780374185542}
+  m_LocalRotation: {x: -5.551115E-17, y: -1.110223E-16, z: -1.3877788E-16, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4167549964662284}
+  m_RootOrder: 6

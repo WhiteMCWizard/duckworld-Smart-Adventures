@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FTT_WaterJet01_Mat
+  m_Shader: {fileID: 4800000, guid: 7f88f7989ea288f41bbd963783a3c0c0, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Texture
+      second:
+        m_Texture: {fileID: 2800000, guid: 75a3b23df67fba248bde07acc7964a10, type: 3}
+        m_Scale: {x: 1, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Coverage
+      second: 2
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Grow
+      second: 1
+    - first:
+        name: _Growth
+      second: 0.97
+    - first:
+        name: _HardnessA
+      second: 3
+    - first:
+        name: _HardnessB
+      second: 5
+    - first:
+        name: _HardnessC
+      second: 2
+    - first:
+        name: _PositionA
+      second: 1.9
+    - first:
+        name: _PositionB
+      second: 1.2
+    - first:
+        name: _PositionC
+      second: 1.2
+    - first:
+        name: _USpeed
+      second: 0.2
+    - first:
+        name: _VSpeed
+      second: -1.4
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.236, g: 0.5106962, b: 1, a: 1}
+    - first:
+        name: _ColorA
+      second: {r: 0.6156863, g: 0.951827, b: 1, a: 1}
+    - first:
+        name: _ColorB
+      second: {r: 0.3229527, g: 0.62624305, b: 0.78431374, a: 1}
+    - first:
+        name: _Smoke
+      second: {r: 0.20991926, g: 0.432118, b: 0.50980395, a: 1}

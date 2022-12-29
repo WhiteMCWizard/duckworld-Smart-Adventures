@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1194438951392732}
+  m_IsPrefabParent: 1
+--- !u!1 &1194438951392732
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4418767296082955}
+  - 114: {fileID: 114200952212551318}
+  - 114: {fileID: 114824921907439453}
+  - 114: {fileID: 114776544596343581}
+  - 114: {fileID: 114657977482823647}
+  - 95: {fileID: 95057850583355702}
+  - 54: {fileID: 54536396072373930}
+  - 65: {fileID: 65289299084241085}
+  m_Layer: 24
+  m_Name: GhostKart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4418767296082955
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194438951392732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -6.3284893}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114200952212551318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194438951392732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ee91d6a2aa9a8440b370fa2c48821f8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114824921907439453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194438951392732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc25f53986d6fb04a95bf0703a3d6576, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnImmediately: 0
+  materialOverride: {fileID: 2100000, guid: b5783b0f440f48a42ae90de36a9434f9, type: 2}
+  config:
+    id: 0
+    active: 0
+    Items:
+    - GUID: 55a0e27b-30aa-4aa7-b4d6-3bfe8604c21d
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 4236651d-135f-42b6-87a4-b26643e30ece
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: f80707d2-f456-4397-a0d8-07083acf3179
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 47e2cb80-15d5-45b3-848b-4d61134d9c59
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+--- !u!114 &114776544596343581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194438951392732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38defcd9e684df348aed37b0aace5432, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  characterAnimator: {fileID: 95057850583355702}
+  playerName: KR_NAME_GHOST
+  impactForceToLoseHeart: 25
+  invulnerabilityDuration: 3
+  respawnDuration: 1
+  kartHitParticlesSpawner: {fileID: 0}
+  wheelDustParticlesSpawner: []
+  highImpactThreshold: 20
+  mediumImpactThreshold: 13
+  lowImpactThreshold: 6
+  driveToFinishPositionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  driveToFinishPositionDuration: 1
+  ghostMaterial: {fileID: 2100000, guid: b5783b0f440f48a42ae90de36a9434f9, type: 2}
+  ghostAvatarMaterial: {fileID: 2100000, guid: 9c2bdc54380d54743891e7d88017f50c, type: 2}
+  distanceFadeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  startFadeDistance: 0
+  endFadeDistance: 3
+  minAlpha: 0.1
+  maxAlpha: 0.5
+--- !u!114 &114657977482823647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194438951392732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f3ef64d235c344b8aaf5c82102d917, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  spawnImmediately: 0
+  itemOverrides:
+  - Race: 0
+    Gender: 0
+    GUID: b46bd88b-b6cf-4bc7-be8b-8d3f83a66a1c
+  - Race: 0
+    Gender: 1
+    GUID: 26712d86-cb44-4c17-bc4e-21f73d91682d
+  - Race: 2
+    Gender: 0
+    GUID: f85acdd6-5bbf-4717-8ee8-23434017ed7b
+  - Race: 2
+    Gender: 1
+    GUID: 0af2e801-9cd2-4890-ac8f-0c07449e7869
+  - Race: 1
+    Gender: 1
+    GUID: ff42265c-98cd-4f4a-9c6f-7f6dbd89f9bc
+  - Race: 1
+    Gender: 0
+    GUID: 53887289-1ad4-4ca2-ba0f-d9dc814d981f
+--- !u!95 &95057850583355702
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194438951392732}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 7e2d7a9b1c8a5f34eab926307be4d44a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 01df5673f6c92d848bd8fa430f262fb9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!54 &54536396072373930
+Rigidbody:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194438951392732}
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65289299084241085
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194438951392732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Size: {x: 1, y: 0.6689855, z: 1.6892412}
+  m_Center: {x: -0.0012330505, y: 0.53230286, z: 0.029968798}

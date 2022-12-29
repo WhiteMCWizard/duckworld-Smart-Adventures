@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Girl_Torso_02y_Mat_01
+  m_Shader: {fileID: 4800000, guid: 1da405b4f157f914eaa57ef81ddba862, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _ColorMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 2f9226f66e2c6074a9211226463641f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AmbientThreshold
+      second: 0.3
+    - first:
+        name: _DiffuseThreshold
+      second: 0.9
+    - first:
+        name: _NrOfLights
+      second: 1
+    - first:
+        name: _Outline
+      second: 0.005
+    - first:
+        name: _ShadowThreshold
+      second: 0
+    m_Colors:
+    - first:
+        name: _Ambient
+      second: {r: 0.25, g: 0.25, b: 0.25, a: 1}
+    - first:
+        name: _BaseColor
+      second: {r: 0.09803922, g: 0.07450981, b: 0.007843138, a: 1}
+    - first:
+        name: _BlueColor
+      second: {r: 0.73333335, g: 0, b: 0, a: 1}
+    - first:
+        name: _Color
+      second: {r: 0.1, g: 0.0775, b: 0.010000003, a: 1}
+    - first:
+        name: _GreenColor
+      second: {r: 0.9490196, g: 0.9490196, b: 0.9490196, a: 1}
+    - first:
+        name: _OutlineColor
+      second: {r: 0, g: 0, b: 0, a: 0.78431374}
+    - first:
+        name: _SkinColor
+      second: {r: 0.972549, g: 0.94509804, b: 0.8862745, a: 1}

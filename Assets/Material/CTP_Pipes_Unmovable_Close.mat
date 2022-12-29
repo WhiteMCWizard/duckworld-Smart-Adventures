@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CTP_Pipes_Unmovable_Close
+  m_Shader: {fileID: 4800000, guid: 1fc85d7e9e4cc3e4ca7984f5a5da65f9, type: 3}
+  m_ShaderKeywords: ALPHAMOD_ON COLORREPLACEMENT_ON TINT_OFF
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 1e0c59f9ae2a2734abd0bb03e5f08f92, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Alpha
+      second: 1
+    - first:
+        name: _AlphaMod
+      second: 1
+    - first:
+        name: _AmbientThreshold
+      second: 0.3
+    - first:
+        name: _OutlineWidth
+      second: 0.008
+    - first:
+        name: _RimPower
+      second: 1
+    - first:
+        name: _RimStrength
+      second: 1
+    m_Colors:
+    - first:
+        name: _Ambient
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _BaseColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _BlueColor
+      second: {r: 0.75, g: 0.57474655, b: 0.044117644, a: 1}
+    - first:
+        name: _Color
+      second: {r: 0.4089533, g: 0.41905203, b: 0.44852942, a: 1}
+    - first:
+        name: _EmissiveColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _GreenColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _OutlineColor
+      second: {r: 0.2, g: 0.2, b: 0.2, a: 0.8}
+    - first:
+        name: _RedColor
+      second: {r: 0.37467563, g: 0.41193175, b: 0.46323532, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0.41836074, g: 0.47797105, b: 0.53676474, a: 1}
+    - first:
+        name: _Tint
+      second: {r: 0.4089533, g: 0.41905203, b: 0.44852942, a: 1}

@@ -1,0 +1,380 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6be97f72939c0ec4591ae787b694009b, type: 3}
+  m_Name: Kart_Items
+  m_EditorClassIdentifier:
+  items:
+  - GUID: 55a0e27b-30aa-4aa7-b4d6-3bfe8604c21d
+    Prefab: {fileID: 1133947841704937, guid: 65034fabe19e83a43803f5f65748bac4, type: 2}
+    Icon: {fileID: 2800000, guid: 9f0b3ba7340fb44479ea17989b72db64, type: 3}
+    TopSpeed: 0.3
+    Acceleration: 0.2
+    Handling: 0
+    Snow: 0
+    Oil: 0
+    Category: 1
+  - GUID: 82a15fdf-de50-4601-84a3-fd886c86a7c7
+    Prefab: {fileID: 1744513106393604, guid: 0836857ec8c6939488521c626b598fa2, type: 2}
+    Icon: {fileID: 2800000, guid: 62428410d7d9e284b881c6af4335033a, type: 3}
+    TopSpeed: 0
+    Acceleration: 0.15
+    Handling: 0.3
+    Snow: 0
+    Oil: 0
+    Category: 1
+  - GUID: 0ae44a1e-3d1b-4aa6-96da-f09405384170
+    Prefab: {fileID: 1233855703569934, guid: 128c30048c19d5e468746d3bc3986279, type: 2}
+    Icon: {fileID: 2800000, guid: 7b4845f2869918246ac8e63581803b3d, type: 3}
+    TopSpeed: 0.1
+    Acceleration: 0.3
+    Handling: 0.1
+    Snow: 0
+    Oil: 0
+    Category: 1
+  - GUID: ebc4c86b-9df3-412f-9d1f-81db49f85aee
+    Prefab: {fileID: 1832881624752379, guid: cc2c192f184a7924a9eac80b2c45ad49, type: 2}
+    Icon: {fileID: 2800000, guid: 3bee6be11bc1dc748a79231103d4dbb4, type: 3}
+    TopSpeed: 0.2
+    Acceleration: 0
+    Handling: 0.1
+    Snow: 1
+    Oil: 0
+    Category: 1
+  - GUID: b580309e-822e-46cf-a005-eda9c3678bc7
+    Prefab: {fileID: 1139594105788801, guid: da2d1286bb352d54fbc04df932439883, type: 2}
+    Icon: {fileID: 2800000, guid: 3b0db23ba60b0784191381aaafeaf215, type: 3}
+    TopSpeed: 0.1
+    Acceleration: 0.1
+    Handling: 0.1
+    Snow: 0
+    Oil: 1
+    Category: 1
+  - GUID: 4236651d-135f-42b6-87a4-b26643e30ece
+    Prefab: {fileID: 1856871852468459, guid: 7b6f95c76703d6b4bb1ad5d945d58ba5, type: 2}
+    Icon: {fileID: 2800000, guid: 5c1f08f0af681e24989f26571c2df35e, type: 3}
+    TopSpeed: 0.04
+    Acceleration: 0.04
+    Handling: 0.1
+    Snow: 0
+    Oil: 0
+    Category: 2
+  - GUID: 3765cab5-a027-46e0-a1c9-bc7f0da32fab
+    Prefab: {fileID: 1473336831304351, guid: 469c8938167e9a94195686b81d469b11, type: 2}
+    Icon: {fileID: 2800000, guid: 6598f0b19a6f9304cb7e01ad5c928cc6, type: 3}
+    TopSpeed: 0.08
+    Acceleration: 0.08
+    Handling: 0.08
+    Snow: 0
+    Oil: 0
+    Category: 2
+  - GUID: 1cd71a03-8444-4fa6-87d6-7b23c19f6615
+    Prefab: {fileID: 1816738321210565, guid: f5fed7404d543bd4ba69e5c523307766, type: 2}
+    Icon: {fileID: 2800000, guid: 8b3c5f8fa6ed0434da4c75e8acb5763e, type: 3}
+    TopSpeed: 0.1
+    Acceleration: 0
+    Handling: 0.1
+    Snow: 0
+    Oil: 0
+    Category: 2
+  - GUID: a17124a2-e619-4343-a474-0f5be4e4d36a
+    Prefab: {fileID: 1831006035568561, guid: 0c4351e93857ace4aa60b42a3809d2e1, type: 2}
+    Icon: {fileID: 2800000, guid: 5d7504871d7905c4ba045b5717bffe77, type: 3}
+    TopSpeed: 0
+    Acceleration: 0.1
+    Handling: 0.1
+    Snow: 1
+    Oil: 0
+    Category: 2
+  - GUID: fafdc237-8307-48be-8ff3-a21470821a66
+    Prefab: {fileID: 1932429072722737, guid: 6759afa3049324a43abacbf3872e8824, type: 2}
+    Icon: {fileID: 2800000, guid: 0a9a4afa008eab54a93fbe4aa59ee623, type: 3}
+    TopSpeed: 0
+    Acceleration: 0
+    Handling: 0.2
+    Snow: 0
+    Oil: 1
+    Category: 2
+  - GUID: f80707d2-f456-4397-a0d8-07083acf3179
+    Prefab: {fileID: 1230075842716116, guid: 06fcf3c9cb7af4b4cb49c7537476f3eb, type: 2}
+    Icon: {fileID: 2800000, guid: 9a3372c6e78aef94aa86e13e5ac59aa2, type: 3}
+    TopSpeed: 0.4
+    Acceleration: 0.3
+    Handling: 0.3
+    Snow: 0
+    Oil: 0
+    Category: 3
+  - GUID: 662e4f25-9f33-4279-9c3d-1bc068e6cb20
+    Prefab: {fileID: 1126281071194680, guid: 248b96a67f9311c408ab2cfdfe6e3992, type: 2}
+    Icon: {fileID: 2800000, guid: 1f4656df381b7d9408d25b81f119ddd7, type: 3}
+    TopSpeed: 0.3
+    Acceleration: 0.4
+    Handling: 0.3
+    Snow: 0
+    Oil: 0
+    Category: 3
+  - GUID: 027f6c9a-9e03-4653-b835-f69a6be34935
+    Prefab: {fileID: 1842254151769250, guid: ecfa7fb1108dbe849ae5a8f7eb31940c, type: 2}
+    Icon: {fileID: 2800000, guid: c5b05d3cff2bf2d47b29bf74392915e6, type: 3}
+    TopSpeed: 0.2
+    Acceleration: 0.2
+    Handling: 0.55
+    Snow: 0
+    Oil: 0
+    Category: 3
+  - GUID: 06e1d642-d42b-42c1-b213-dccd69e44505
+    Prefab: {fileID: 1938028469553775, guid: 54d0682c78860bf429956061f62fbf34, type: 2}
+    Icon: {fileID: 2800000, guid: 0f94caa73d45fcb42b8d4d8f63b1b4e6, type: 3}
+    TopSpeed: 0.55
+    Acceleration: 0.2
+    Handling: 0.2
+    Snow: 0
+    Oil: 0
+    Category: 3
+  - GUID: 15ec7950-2473-4090-a916-b1d640119663
+    Prefab: {fileID: 1980694902653347, guid: 4149e67097fbb794793659326724d705, type: 2}
+    Icon: {fileID: 2800000, guid: f543e8e7c74852f4e9e6d4965c8ff63d, type: 3}
+    TopSpeed: 0.2
+    Acceleration: 0.55
+    Handling: 0.2
+    Snow: 0
+    Oil: 0
+    Category: 3
+  - GUID: 47e2cb80-15d5-45b3-848b-4d61134d9c59
+    Prefab: {fileID: 1478115196373847, guid: 33e45aa002bf8894296abbd4bd945e98, type: 2}
+    Icon: {fileID: 0}
+    TopSpeed: 0
+    Acceleration: 0
+    Handling: 0
+    Snow: 0
+    Oil: 0
+    Category: 4
+  - GUID: 8aa7e791-b9be-4cb7-b0d4-f3a5699dc1c8
+    Prefab: {fileID: 1739261906867235, guid: e660e081bc274dd448c2c1edd8e3db03, type: 2}
+    Icon: {fileID: 2800000, guid: 4ec8ddf520a866147885934c7448f09c, type: 3}
+    TopSpeed: 0
+    Acceleration: 0
+    Handling: 0.2
+    Snow: 0
+    Oil: 0
+    Category: 4
+  - GUID: 8ab948b6-a1a6-48ca-90f3-74858df3e8f2
+    Prefab: {fileID: 1205738059492206, guid: 4b38003357eca5149b1c8ee750545a3f, type: 2}
+    Icon: {fileID: 2800000, guid: fc6e0d5c1fcfbbb4bbe359f108592049, type: 3}
+    TopSpeed: 0.12
+    Acceleration: 0.12
+    Handling: 0
+    Snow: 0
+    Oil: 0
+    Category: 4
+  - GUID: 8879d239-bafa-441f-a5e7-33828119f735
+    Prefab: {fileID: 1437504950641586, guid: fc9a23600a93abb4789c62f61c095600, type: 2}
+    Icon: {fileID: 2800000, guid: bfca2486e84e70e4ea8dced3d3dd34d7, type: 3}
+    TopSpeed: 0.07
+    Acceleration: 0.07
+    Handling: 0.07
+    Snow: 0
+    Oil: 0
+    Category: 4
+  - GUID: afeedce7-8165-44be-b763-58560d3723da
+    Prefab: {fileID: 1709219375441066, guid: 68b07b4d3e4e30d49a4a5d56985d237f, type: 2}
+    Icon: {fileID: 2800000, guid: bfbd971341a580941b6da1444002d726, type: 3}
+    TopSpeed: 0
+    Acceleration: 0.06
+    Handling: 0.15
+    Snow: 0
+    Oil: 0
+    Category: 4
+  - GUID: cf9e9fdf-7d75-4eea-ad47-3dbeb2df8cc9
+    Prefab: {fileID: 1358649997691380, guid: 35f3b65bce2d65c47b1e4abd28b18728, type: 2}
+    Icon: {fileID: 2800000, guid: 4fb221aaeb96bb54fa80e7fe04ee28fe, type: 3}
+    TopSpeed: 0.2
+    Acceleration: 0
+    Handling: 0
+    Snow: 0
+    Oil: 0
+    Category: 4
+  - GUID: 03b46420-5428-4959-bbb1-0b81a434c20c
+    Prefab: {fileID: 1949657415503984, guid: f9b024f2b38c9ac43be33c4fd4cf3f63, type: 2}
+    Icon: {fileID: 0}
+    TopSpeed: 0
+    Acceleration: 0
+    Handling: 0
+    Snow: 0
+    Oil: 0
+    Category: 5
+  - GUID: 06cbc8b5-ec47-4b37-b0d3-84f64580200e
+    Prefab: {fileID: 1274827549209597, guid: 19a64ec8e3ec5ac488775efab934120f, type: 2}
+    Icon: {fileID: 2800000, guid: 3b99bb30122a9354db83a87ad2ff8949, type: 3}
+    TopSpeed: 0
+    Acceleration: 0
+    Handling: 0
+    Snow: 0
+    Oil: 0
+    Category: 5
+  - GUID: 75fbdd02-7dc3-4893-917a-1aee512a593c
+    Prefab: {fileID: 1416544784471713, guid: 702efe44e81706d4dadb66f99b4f5d67, type: 2}
+    Icon: {fileID: 2800000, guid: 3a114af887d98c645b38d520009f3e6f, type: 3}
+    TopSpeed: 0
+    Acceleration: 0
+    Handling: 0
+    Snow: 0
+    Oil: 0
+    Category: 5
+  - GUID: 3ca5d212-7349-41f0-881b-e826b683b192
+    Prefab: {fileID: 1602412459592902, guid: dfce9e2367c78494c9c097739c282445, type: 2}
+    Icon: {fileID: 2800000, guid: 69e741607fa3d904ba20676d9327856e, type: 3}
+    TopSpeed: 0
+    Acceleration: 0
+    Handling: 0
+    Snow: 0
+    Oil: 0
+    Category: 5
+  - GUID: 46c47b30-10c0-4d20-ad09-ecb0f937932e
+    Prefab: {fileID: 1742424818281550, guid: ab0c08460477515489f91365f8ddeef2, type: 2}
+    Icon: {fileID: 2800000, guid: 30039f1025cdb204f8d34b75cd88de25, type: 3}
+    TopSpeed: 0
+    Acceleration: 0
+    Handling: 0
+    Snow: 0
+    Oil: 0
+    Category: 5
+  - GUID: 7c46a45e-9e82-4beb-824b-fbeff88a1e1a
+    Prefab: {fileID: 1331354252276544, guid: b5e2cf869c60d2a4aa56a5ee42f64edd, type: 2}
+    Icon: {fileID: 2800000, guid: e970f1166ec8cc64ea15b0495e4d4330, type: 3}
+    TopSpeed: 0
+    Acceleration: 0
+    Handling: 0
+    Snow: 0
+    Oil: 0
+    Category: 5
+  primaryColorPalette:
+  - {r: 0.74509805, g: 0.5568628, b: 0.29803923, a: 1}
+  - {r: 0.84705883, g: 0.5254902, b: 0.08627451, a: 1}
+  - {r: 0.69803923, g: 0.15294118, b: 0.105882354, a: 1}
+  - {r: 0.54509807, g: 0.24705882, b: 0.54509807, a: 1}
+  - {r: 0.25882354, g: 0.3254902, b: 0.64705884, a: 1}
+  - {r: 0.23921569, g: 0.5176471, b: 0.79607844, a: 1}
+  - {r: 0.22352941, g: 0.65882355, b: 0.74509805, a: 1}
+  - {r: 0.23921569, g: 0.59607846, b: 0.3019608, a: 1}
+  - {r: 0.5568628, g: 0.74509805, b: 0.1882353, a: 1}
+  - {r: 0.94509804, g: 0.81960785, b: 0.1882353, a: 1}
+  - {r: 0.8980392, g: 0.8980392, b: 0.8980392, a: 1}
+  - {r: 0.84705883, g: 0.45882353, b: 0.38431373, a: 1}
+  - {r: 0.74509805, g: 0.3764706, b: 0.74509805, a: 1}
+  - {r: 0.36078432, g: 0.41960785, b: 0.4509804, a: 1}
+  - {r: 0.16078432, g: 0.1882353, b: 0.2, a: 1}
+  secondaryColorPalette:
+  - {r: 0.74509805, g: 0.5568628, b: 0.29803923, a: 1}
+  - {r: 0.84705883, g: 0.5254902, b: 0.08627451, a: 1}
+  - {r: 0.69803923, g: 0.15294118, b: 0.105882354, a: 1}
+  - {r: 0.54509807, g: 0.24705882, b: 0.54509807, a: 1}
+  - {r: 0.25882354, g: 0.3254902, b: 0.64705884, a: 1}
+  - {r: 0.23921569, g: 0.5176471, b: 0.79607844, a: 1}
+  - {r: 0.22352941, g: 0.65882355, b: 0.74509805, a: 1}
+  - {r: 0.23921569, g: 0.59607846, b: 0.3019608, a: 1}
+  - {r: 0.5568628, g: 0.74509805, b: 0.1882353, a: 1}
+  - {r: 0.94509804, g: 0.81960785, b: 0.1882353, a: 1}
+  - {r: 0.8980392, g: 0.8980392, b: 0.8980392, a: 1}
+  - {r: 0.84705883, g: 0.45882353, b: 0.38431373, a: 1}
+  - {r: 0.74509805, g: 0.3764706, b: 0.74509805, a: 1}
+  - {r: 0.36078432, g: 0.41960785, b: 0.4509804, a: 1}
+  - {r: 0.16078432, g: 0.1882353, b: 0.2, a: 1}
+  defaultConfigurations:
+  - id: 0
+    active: 0
+    Items:
+    - GUID: 55a0e27b-30aa-4aa7-b4d6-3bfe8604c21d
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 4236651d-135f-42b6-87a4-b26643e30ece
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: f80707d2-f456-4397-a0d8-07083acf3179
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 47e2cb80-15d5-45b3-848b-4d61134d9c59
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 03b46420-5428-4959-bbb1-0b81a434c20c
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+  - id: 0
+    active: 0
+    Items:
+    - GUID: 55a0e27b-30aa-4aa7-b4d6-3bfe8604c21d
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 4236651d-135f-42b6-87a4-b26643e30ece
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 662e4f25-9f33-4279-9c3d-1bc068e6cb20
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 47e2cb80-15d5-45b3-848b-4d61134d9c59
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 03b46420-5428-4959-bbb1-0b81a434c20c
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+  - id: 0
+    active: 0
+    Items:
+    - GUID: 55a0e27b-30aa-4aa7-b4d6-3bfe8604c21d
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 4236651d-135f-42b6-87a4-b26643e30ece
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 027f6c9a-9e03-4653-b835-f69a6be34935
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 47e2cb80-15d5-45b3-848b-4d61134d9c59
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 03b46420-5428-4959-bbb1-0b81a434c20c
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+  - id: 0
+    active: 0
+    Items:
+    - GUID: 55a0e27b-30aa-4aa7-b4d6-3bfe8604c21d
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 4236651d-135f-42b6-87a4-b26643e30ece
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 06e1d642-d42b-42c1-b213-dccd69e44505
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 47e2cb80-15d5-45b3-848b-4d61134d9c59
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 03b46420-5428-4959-bbb1-0b81a434c20c
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+  - id: -1
+    active: 0
+    Items:
+    - GUID: 55a0e27b-30aa-4aa7-b4d6-3bfe8604c21d
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 4236651d-135f-42b6-87a4-b26643e30ece
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 15ec7950-2473-4090-a916-b1d640119663
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 47e2cb80-15d5-45b3-848b-4d61134d9c59
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0
+    - GUID: 03b46420-5428-4959-bbb1-0b81a434c20c
+      PrimaryColorPaletteIndex: 0
+      SecondaryColorPaletteIndex: 0

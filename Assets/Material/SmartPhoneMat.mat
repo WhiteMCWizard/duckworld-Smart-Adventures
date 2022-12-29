@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SmartPhoneMat
+  m_Shader: {fileID: 4800000, guid: 75aeeae5f24e8c247a3904f48379d122, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 96453e9f8b5a8b344a4aa79ae0ee0fb3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AmbientThreshold
+      second: 0.3
+    m_Colors:
+    - first:
+        name: _Ambient
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _BaseColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _BlueColor
+      second: {r: 0.36764705, g: 0.36764705, b: 0.36764705, a: 1}
+    - first:
+        name: _Color
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _GreenColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RedColor
+      second: {r: 0.86764705, g: 0.08293682, b: 0.19658434, a: 1}

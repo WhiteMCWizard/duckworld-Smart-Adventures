@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1463052730560107}
+  m_IsPrefabParent: 1
+--- !u!1 &1463052730560107
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4036057918896197}
+  - 114: {fileID: 114440509930182001}
+  m_Layer: 0
+  m_Name: AI4_Medium_rubber
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4036057918896197
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1463052730560107}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114440509930182001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1463052730560107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd42fc4be48cb3e42b6a0ae0e896526c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  rubberBanding: 1.1
+  baseDifficulty: 1.02
+  config:
+    id: 0
+    active: 0
+    Items:
+    - GUID: 0ae44a1e-3d1b-4aa6-96da-f09405384170
+      PrimaryColorPaletteIndex: 1
+      SecondaryColorPaletteIndex: 3
+    - GUID: fafdc237-8307-48be-8ff3-a21470821a66
+      PrimaryColorPaletteIndex: 1
+      SecondaryColorPaletteIndex: 3
+    - GUID: 027f6c9a-9e03-4653-b835-f69a6be34935
+      PrimaryColorPaletteIndex: 1
+      SecondaryColorPaletteIndex: 3
+    - GUID: 47e2cb80-15d5-45b3-848b-4d61134d9c59
+      PrimaryColorPaletteIndex: 1
+      SecondaryColorPaletteIndex: 3
+    - GUID: 7c46a45e-9e82-4beb-824b-fbeff88a1e1a
+      PrimaryColorPaletteIndex: 1
+      SecondaryColorPaletteIndex: 3
+  avatar:
+    Gender: 1
+    Race: 2
+    SkinColor:
+      r: 0.972549
+      g: 0.94509804
+      b: 0.8862745
+    Items:
+    - 0af2e801-9cd2-4890-ac8f-0c07449e7869
+    - b6c030e5-16ad-4ced-bc82-ca82ff412582
+    - f1ca5003-9824-43b8-bcfd-da5947cad411
+    - 495a3c63-4f60-4613-a626-83d474165cdf
+  avatarPrefab: {fileID: 1468365346811494, guid: bb0796ec6d570bc49a3b24ec567bbde3, type: 2}
+  localizationName: KR_NAME_AI_BOY_1

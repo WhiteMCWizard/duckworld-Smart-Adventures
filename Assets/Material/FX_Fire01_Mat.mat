@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FX_Fire01_Mat
+  m_Shader: {fileID: 4800000, guid: 7f88f7989ea288f41bbd963783a3c0c0, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Texture
+      second:
+        m_Texture: {fileID: 2800000, guid: 75a3b23df67fba248bde07acc7964a10, type: 3}
+        m_Scale: {x: 1, y: 0.6}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Add
+      second: 0.7
+    - first:
+        name: _AlphaClipping
+      second: 0.2
+    - first:
+        name: _Ambient
+      second: 0.1
+    - first:
+        name: _Ambient_copy
+      second: 0
+    - first:
+        name: _Coverage
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Diffuse
+      second: 0
+    - first:
+        name: _Distance
+      second: 0
+    - first:
+        name: _Fresnel
+      second: 2
+    - first:
+        name: _Growth
+      second: 1
+    - first:
+        name: _Hardness
+      second: 23.75
+    - first:
+        name: _HardnessA
+      second: 3.2
+    - first:
+        name: _HardnessB
+      second: 2
+    - first:
+        name: _HardnessC
+      second: 3
+    - first:
+        name: _Mult
+      second: 1.230769
+    - first:
+        name: _Mult_copy
+      second: 1
+    - first:
+        name: _Offset
+      second: 1.1
+    - first:
+        name: _PositionA
+      second: 1.3
+    - first:
+        name: _PositionB
+      second: 0.7
+    - first:
+        name: _PositionC
+      second: 0.8
+    - first:
+        name: _Power
+      second: 10
+    - first:
+        name: _Power_copy
+      second: 0.5
+    - first:
+        name: _Sharpness
+      second: 20
+    - first:
+        name: _SliderA
+      second: 0.6330891
+    - first:
+        name: _SliderB
+      second: 0
+    - first:
+        name: _StartColorA
+      second: 1
+    - first:
+        name: _Treshold
+      second: 0.2
+    - first:
+        name: _USpeed
+      second: 0.2
+    - first:
+        name: _VSpeed
+      second: -0.8
+    - first:
+        name: _hardness
+      second: 6.66
+    - first:
+        name: _node_119
+      second: 0
+    - first:
+        name: _node_250
+      second: 0
+    - first:
+        name: _offset
+      second: 0
+    - first:
+        name: _position
+      second: 1
+    - first:
+        name: _sharpness
+      second: 9.2
+    m_Colors:
+    - first:
+        name: _BaseColor
+      second: {r: 0, g: 0, b: 1, a: 1}
+    - first:
+        name: _ColorA
+      second: {r: 0.9986892, g: 1, b: 0.5294118, a: 1}
+    - first:
+        name: _ColorB
+      second: {r: 1, g: 0.33426183, b: 0, a: 1}
+    - first:
+        name: _ColorC
+      second: {r: 0, g: 0, b: 0, a: 0.5019608}
+    - first:
+        name: _Smoke
+      second: {r: 0.39215687, g: 0.37951976, b: 0.31526336, a: 1}
+    - first:
+        name: _node_251
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
